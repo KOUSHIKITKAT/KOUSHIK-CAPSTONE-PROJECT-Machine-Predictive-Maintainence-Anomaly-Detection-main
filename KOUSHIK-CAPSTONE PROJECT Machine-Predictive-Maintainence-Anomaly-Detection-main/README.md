@@ -3,7 +3,7 @@ Anomaly Detection deployed on machine data dataset for Predictive Maintenance .
 
 NOTE : I have also included the code files for predictive maintainence using XGBoost , using LSTMs and using Autoencoders (seq2seq and CNN based ) which I learnt from Nvidia Deep learning course , in this repository . However , these were only included as a reference to readers on what other methods could be used and for the sake of completeness , and are not written by me . The code for multivariate gaussian method is written completely by me :)
 
-* Name - Ayush Agarwal 
+* Name - KOUSHIK M
 * Project - Predictive Maintainence Anomaly Detection 
 * Skills - Anomaly Detection, Multivariate Gaussian , Unsupervised Learning , Data Visualisation , Exploratory Data Analysis , Data Science , Machine Learning
 * Tools - Google Colab , Jupyter Notebooks , Python , Numpy , Pandas , Matplotlib , Seaborn , Sklearn
@@ -11,17 +11,6 @@ NOTE : I have also included the code files for predictive maintainence using XGB
 ## Real Life Application :
 
 This can be deployed in an Industrial Internet of Things (IIoT) System , where the system variables measured throught the sensors are sent to Processing System (ofc with my algorithm inside it ) and can be used to monitor system health and predict need for maintainence in the Mechatronic System . Since Prevention is better than cure , a maintainence before any damage or major inconvenience happens is better , hence our system can reduce maintainence costs thus being a business boon . 
-
-## The Dataset : 
-
-The data was taken from Kaggle site : https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification .
-
-A copy of the dataset has been uploaded on this repository just in case the kaggle one gets changed : https://github.com/ayush-agarwal-0502/Machine-Predictive-Maintainence-Anomaly-Detection/blob/main/predictive_maintenance.csv .
-
-## The Code :
-
-The code is availaible at : https://github.com/ayush-agarwal-0502/Machine-Predictive-Maintainence-Anomaly-Detection/blob/main/anomaly_detector_ML_project.ipynb (in this repository itself ) .
-
 ## Aim : 
 
 To build an __Anomaly Detection system__ for __Predictive Maintainence__ work on __Machines data__ using __Multivariate Gaussian fitting and thresholding__ , a simple __unsupervised learning__ technique . 
